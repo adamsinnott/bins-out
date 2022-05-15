@@ -1,0 +1,212 @@
+{
+  "dates": [
+    {
+      "date": "2022-04-01T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-04-08T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-04-15T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-04-23T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": true
+    },
+    {
+      "date": "2022-04-29T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-05-07T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": true
+    },
+    {
+      "date": "2022-05-13T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-05-20T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-05-27T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-06-03T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-06-10T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-06-17T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-06-24T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-07-01T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-07-08T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-07-15T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-07-22T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-07-29T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-08-05T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-08-12T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-08-19T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-08-26T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-09-03T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": true
+    },
+    {
+      "date": "2022-09-09T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2022-09-16T00:00:00.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2022-09-23T00:00:00.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    }
+  ]
+}
