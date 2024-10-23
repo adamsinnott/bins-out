@@ -2,37 +2,44 @@ from adafruit_magtag.magtag import MagTag
 from setup import splash_screen, connect_to_wiFi, setup_requests
 from display import print_date, print_icon
 import json
-from adafruit_datetime import time
+from adafruit_datetime import time, datetime
 from utils import get_bin_collection
 import alarm
 import time
-from world_date import get_date
-from time_calc import add_hours, time_diifernce
-
+from time_calc import minus_hours_to_date, difference_in_seconds
+from world_date import get_current_date
 
 # Initialise variables
 magtag = MagTag(default_bg=0xFFFFFF)
 requests = setup_requests()
 BACKGROUND_BMP="/bmps/bins-out.bmp"
 CLEAR_BACKGROUND_BMP="/bmps/clear_background.bmp"
-# DAY_IN_SECONDS=86400
+DAY_IN_SECONDS=86400
+HOURS_TO_SUBTRACT=6
 # setup the splash screen
 # splash_screen(magtag, BACKGROUND_BMP, CLEAR_BACKGROUND_BMP)
 
 wifi = connect_to_wiFi(magtag)
-
 # Opening JSON file
 f = open('data.json')
 # returns JSON object as
 # a dictionary
 data = json.load(f)
 
-current_timestamp = get_date(requests)
+current_date = get_current_date(requests)
 
-collection_data = get_bin_collection(data, requests, current_timestamp)
+print('current_date')
+print(current_date)
 
-print_date(magtag, collection_data['date'])
-print_icon(magtag, collection_data)
+collection_data = get_bin_collection(data, current_date, HOURS_TO_SUBTRACT)
+
+try:
+  print('collection_data[date]')
+  print(collection_data['date'])
+  print_date(magtag, collection_data['date'])
+  print_icon(magtag, collection_data)
+except Exception as e:
+  print(f"Error: {e}")
 magtag.refresh()
 
 # Calculate the time.
@@ -42,10 +49,17 @@ magtag.refresh()
 # The next time I need to change the date is 08-03-2025 18-00-00
 # Get the current date
 # Sleep time = Future date - current date
-change_date = add_hours(collection_data['date'], 18)
-sleep_time = time_diifernce(change_date, current_timestamp) 
+# Make the date change at a reasonable time, say 18:00 hours.
 
-time_alarm = alarm.time.TimeAlarm(monotonic_time=time.monotonic() + sleep_time)
+# if the change day is today
+try:
+  check_change_date = minus_hours_to_date(collection_data['date'], HOURS_TO_SUBTRACT)
+  sleep_time = difference_in_seconds(check_change_date, current_date)
+  time_alarm = alarm.time.TimeAlarm(monotonic_time=time.monotonic() + sleep_time)
+  alarm.exit_and_deep_sleep_until_alarms(time_alarm)
+except Exception as e:
+  print(f"Error setting the alarm: {e}")
+  alarm.exit_and_deep_sleep_until_alarms(alarm.time.TimeAlarm(monotonic_time=time.monotonic() + 3600))
+
 # Exit the program, and then deep sleep until the alarm wakes us.
-alarm.exit_and_deep_sleep_until_alarms(time_alarm)
 # Does not return, so we never get here.
