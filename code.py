@@ -39,7 +39,7 @@ try:
   print_date(magtag, collection_data['date'])
   print_icon(magtag, collection_data)
 except Exception as e:
-  print(f"Error: {e}")
+  print(f"Error printing to the display: {e}")
 magtag.refresh()
 
 # Calculate the time.

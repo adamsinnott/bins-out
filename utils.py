@@ -1,4 +1,4 @@
-from adafruit_datetime import datetime, date, time
+from adafruit_datetime import datetime
 import json
 from time_calc import minus_hours_to_date
 
@@ -18,4 +18,4 @@ def get_bin_collection(data, current_date, HOURS_TO_SUBTRACT):
     return current_collection
 
   except Exception as e:
-    print(f"Error: {e}")
+    print(f"Error getting bin collection data: {e}")
