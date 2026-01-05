@@ -60,6 +60,8 @@ magtag.refresh()
 try:
   check_change_date = minus_hours_to_date(collection_data['date'], HOURS_TO_SUBTRACT)
   sleep_time = difference_in_seconds(check_change_date, current_date)
+  if sleep_time <= 0:
+    sleep_time = 3600
   time_alarm = alarm.time.TimeAlarm(monotonic_time=time.monotonic() + sleep_time)
   alarm.exit_and_deep_sleep_until_alarms(time_alarm)
 except Exception as e:
