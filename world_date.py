@@ -1,4 +1,4 @@
-from adafruit_datetime import datetime, date, time
+from adafruit_datetime import datetime
 
 
 TIME_URL = "https://worldtimeapi.org/api/timezone/Europe/London.json"

@@ -1,8 +1,8 @@
 from adafruit_magtag.magtag import MagTag
-from setup import splash_screen, connect_to_wiFi, setup_requests
+from setup import connect_to_wiFi, setup_requests
 from display import print_date, print_icon
 import json
-from adafruit_datetime import time, datetime
+from adafruit_datetime import time
 from utils import get_bin_collection
 import alarm
 import time
@@ -63,3 +63,12 @@ except Exception as e:
 
 # Exit the program, and then deep sleep until the alarm wakes us.
 # Does not return, so we never get here.
+
+# Check change date
+# 23:59:59 - 6 == 17:59:59
+
+# Current date
+# 17:26:56 
+
+
+# Check change date - current date = 
