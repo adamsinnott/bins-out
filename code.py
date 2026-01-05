@@ -21,10 +21,15 @@ HOURS_TO_SUBTRACT=6
 
 wifi = connect_to_wiFi(magtag)
 # Opening JSON file
-f = open('data.json')
-# returns JSON object as
-# a dictionary
-data = json.load(f)
+try:
+  with open('data.json', 'r') as f:
+    # returns JSON object as a dictionary
+    data = json.load(f)
+except Exception as e:
+  print(f"Error loading data.json: {e}")
+  alarm.exit_and_deep_sleep_until_alarms(
+    alarm.time.TimeAlarm(monotonic_time=time.monotonic() + 3600)
+  )
 
 current_date = get_current_date(requests)
 
