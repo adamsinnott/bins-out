@@ -18,8 +18,6 @@ DAY_IN_SECONDS=86400
 HOURS_TO_SUBTRACT=6
 LAST_DATE_PATH="last_date.txt"
 DEFAULT_SLEEP_SECONDS=3600
-# setup the splash screen
-# splash_screen(magtag, BACKGROUND_BMP, CLEAR_BACKGROUND_BMP)
 
 wifi = connect_to_wiFi(magtag)
 # Opening JSON file
