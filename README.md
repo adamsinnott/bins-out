@@ -15,4 +15,4 @@ Media:
 
 ![Back](assets/back.jpeg)
 
-<video src="assets/video.mp4" controls></video>
+- `assets/video.mp4`
