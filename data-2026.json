@@ -1,0 +1,356 @@
+{
+  "dates": [
+    {
+      "date": "2025-12-01T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2025-12-08T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2025-12-15T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2025-12-22T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2025-12-30T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": true
+    },
+    {
+      "date": "2026-01-06T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": true
+    },
+    {
+      "date": "2026-01-12T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-01-19T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-01-26T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-02-02T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-02-09T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-02-16T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-02-23T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-03-02T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-03-09T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-03-16T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-03-23T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-03-30T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-04-07T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": true
+    },
+    {
+      "date": "2026-04-13T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-04-20T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-04-27T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-05-05T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": true
+    },
+    {
+      "date": "2026-05-11T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-05-18T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-05-26T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": true
+    },
+    {
+      "date": "2026-06-01T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-06-08T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-06-15T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-06-22T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-06-29T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-07-06T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-07-13T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-07-20T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-07-27T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-08-03T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-08-10T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-08-17T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-08-24T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-09-01T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": true
+    },
+    {
+      "date": "2026-09-07T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": false,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-09-14T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    },
+    {
+      "date": "2026-09-21T23:59:59.000000+00:00",
+      "garden": false,
+      "refuse": false,
+      "glass": true,
+      "recycling": true,
+      "bhChange": false
+    },
+    {
+      "date": "2026-09-28T23:59:59.000000+00:00",
+      "garden": true,
+      "refuse": true,
+      "glass": false,
+      "recycling": false,
+      "bhChange": false
+    }
+  ]
+}
