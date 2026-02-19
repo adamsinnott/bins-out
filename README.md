@@ -1,7 +1,18 @@
 # Bins Out
 
-Bins Out is a magtag https://www.adafruit.com/product/4800 based IoT device.
+Bins Out is an Adafruit MagTag (https://www.adafruit.com/product/4800) fridge e‑ink display device.
 
-It connects to the internet, gets the current date and determines what the correct bin day is and what type (waste, garden, glass etc) and displays the date and type to the screen. It then enters low power deep sleep for 24 hours before checking again.
+It connects to the internet and uses timeapi.io to get the current time. Based on that, it determines the
+next bin day and the collection type (refuse, glass, recycling, etc.) and displays the date and type on
+the screen. It then goes into deep sleep to conserve battery.
 
-See the video in assets.
+Current battery life is approximately 8–10 weeks. This could be longer with a custom device and an
+ESP32‑S6 low‑power Wi‑Fi 6 chipset for faster connections.
+
+Media:
+
+![Front](assets/front.jpeg)
+
+![Back](assets/back.jpeg)
+
+<video src="assets/video.mp4" controls></video>
