@@ -82,8 +82,8 @@ Direct legacy firmware link (easy to miss on the downloads site):
 | Adafruit MagTag 2.9" grayscale | Yes | Main board and display |
 | USB data cable | Yes | Must be a data cable, not charge-only |
 | USB power source | Yes | For flashing/configuration and optional wall power |
-| Mounting material (magnetic M3 feet, magnet strip, adhesive, stand) | Yes | Depends on your install location |
-| LiPo battery (optional) | No | For fully wireless operation |
+| Mounting material (magnetic M3 feet, magnet strip, adhesive, stand) | No | Depends on your install location |
+| PKCELL LP503035 3.7V 500mAh LiPo battery (optional) | No | For fully wireless operation |
 
 Cost guide (USD): retail pricing varies by region and supplier; check current pricing on product pages before purchasing.
 
