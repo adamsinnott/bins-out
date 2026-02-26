@@ -6,9 +6,10 @@ Bins Out is an Adafruit MagTag fridge e-ink display that shows the next waste co
 - Typical battery life: ~8 to 10 weeks
 - Runtime behavior: wake -> sync time -> choose next collection -> render -> deep sleep
 
-![Front](assets/front.jpeg)
-
-![Back](assets/back.jpeg)
+<p align="center">
+  <img src="assets/front.jpeg" alt="Front" width="38%" />
+  <img src="assets/back.jpeg" alt="Back" width="57%" />
+</p>
 
 ## Table of Contents
 
